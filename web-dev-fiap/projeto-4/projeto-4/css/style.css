@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  font-size: 30px;
+  color: aqua;
+  text-align: center;
+}
+p {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  text-transform: uppercase;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
